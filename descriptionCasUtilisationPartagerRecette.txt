@@ -1,0 +1,17 @@
+Titre: Partager une recette
+Type: Description Globale
+Acteurs : Utilisateur "adulte", "ado"
+Date de création : 16 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 1
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : L'utilisateur a sélectionné une recette et a cliqué sur le bouton "Partager"
+Post condition : La recette est partagée et retour à l'écran avec la recette selectionnée
+
+Description Globale :
+L'utilisateur peut choisir par quel moyen il veut partager sa recette, par mail ou par les réseaux sociaux
+Si l'utilisateur choisit un partage via mail, l'utilisateur doit renseigner le mail de la personne avec qui l'utilisateur veut partager la recette. Ainsi que l'objet et le message qu'il veut ajouter (non obligatoire)
+S'il n'a jamais partagé de recette par mail l'utilisateur doit renseigner son adresse email ainsi que le mot de passe de l'adresse email (ces informations seront sauvegardées pour le prochain envoi par mail)
+
+Si l'utilisateur choisit un partage via les réseaux sociaux, l'utilisateur doit choisir sur quel réseau social il veut partager sa recette. De même que pour les mails, s'il ne s'est jamais connecté il devra s'identifier avec les identifiants du réseau social choisi (les informations seront sauvegardées pour les prochains partage)
+Il pourra alors choisir à qui partager la recette.

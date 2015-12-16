@@ -1,0 +1,16 @@
+Titre: Réaliser la recette
+Type: Description Globale
+Acteurs : Utilisateur "adulte", "ado" et "enfant"
+Date de création : 16 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 1
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : L'utilisateur a sélectionnée une recette et a cliqué sur le bouton "Réaliser la recette"
+Post condition : Retour aà l'écran de recherche de recette
+
+Descritpion Globale :
+1ère étape : Les ingrédiants
+La liste des ingrédiants est affichée et l'utlisateur doit cliquer chaque ingrédient qu'il possède puis valider, si dans les ingrédients il y a des ingrédients allergènes pour un utilisateur c'est précisé et une proposition est faite pour remplacer l'ingrédiant par un autre.
+Pour les utilisateurs "enfants" et "ados" ne peuvent pas valider s'il reste des ingrédients allergènent les concernant.
+Si tous les ingrédients de la recette sont en la possession de l'utilisateur, le début de la réalisation de la recette commence
+Sinon pour les utlisateurs "enfant" et "ado", un message s'affiche en proposant de remplacer les ingrédiants non possédés oubien l'utilisateur peut quitter la réalisation de la recette
