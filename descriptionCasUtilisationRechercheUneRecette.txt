@@ -1,0 +1,30 @@
+Titre: Rechercher une recette
+Type: Description Globale
+Acteurs : Utilisateur "adulte", "ado" et "enfant"
+Date de création : 16 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 1
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : L'utilisateur s'est authentifié sur le système et a cliqué sur le bouton "Rechercher une recette" de son menu
+Post condition : Retour au menu de l'utilisateur
+
+Descritpion Globale :
+Pour la recherche d'une recette. L'utilisateur peut faire une recherche parmis sa liste "mes recettes" ou bien directement depuis la base de données de l'application (stocké sur un serveur web)
+L'écran affiche par défaut les recettes les plus souvents utilisés par l'utilisateur (si pas encore de recette effectuée, l'écran affiche par défaut les recettes les plus souvents utilisés par tous les utilisateurs de l'application (pas uniquement ceux de la "famille", récupération de ces données par le web))
+L'utilisateur pourra choisir de trier les recettes en fonction
+      - du prix
+      - du temps de préparation
+      - de sa note (pour chaque recette il est possible d'attribuer une note, la note d'une recette est donc basée sur la moyenne de toutes les notes qui lui ont été attribuées)
+L'utilisateur pourra filtrer les recettes
+      - par ingrédiant (si l'utilisateur veut manger des tomates, il pourra ajouter comme filtre dans la liste des ingrédiants, l'ingrédiant "tomate", seules les recettes avec des tomates seront donc proposées)
+      - par type de recette (recette bio, recette seine, recette française / italienne / marocaine...)
+
+Une fois une recette sélectionnée, les informations détaillées de la recette apparaissent ainsi que sa note globale et les differents commentaires laissés par tous les utilisateurs du monde entier
+
+L'utilisateur pourra alors
+    - Attribuer une note à la recette en cliquant sur "Noter la recette"
+    - Ajouter la recette à sa liste de souhaits en cliquant sur le bouton "Ajouter aux souhaits"
+    - Partager la recette sur les réseaux sociaux ou par mail en cliquant sur le bouton "Partager la recette" (pour plus de détails, voir description du cas d'utilisation "Partager")
+    - Commenter la recette en cliquant sur le bouton "Commenter la recette"
+    - Suivre la réalisation de la recette en cliquant sur "Réaliser la recette" (pour plus de détails, voir la description du cas d'utilisation "Réaliser la recette")
+    - Modifier la recette en cliquant sur le bouton "Modifier la recette" (Une recette modifiée venant de la base de données viendra se mettre dans "mes recettes et nouveau nom sera demandé", une recette modifiée venant de "mes recettes" gardera le même nom)

@@ -6,7 +6,7 @@ Date de Mise é jour : 16 décembre 2015
 Version 1
 Responsable : Jean-Baptiste DURIEZ
 Pré condition : L'administrateur (qui est aussi un utilisateur) s'est authentifié sur le système et a cliqué sur le bouton "Gérer les paramètres utilisateur" après avoir cliqué sur "Gérer les utilisateurs"
-Post condition : Les paramètres de l'application on était modifié
+Post condition : Les paramètres de l'application on était modifié et retour au menu de l'utilisateur
 
 Description Globale :
 

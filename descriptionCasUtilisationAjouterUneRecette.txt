@@ -6,11 +6,11 @@ Date de Mise é jour : 16 décembre 2015
 Version 1
 Responsable : Jean-Baptiste DURIEZ
 Pré condition : Un utilistateur "Adulte" et "Ado" s'est authentifier sur l'application et a cliqué sur le bouton "Ajouter une recette" de son menu
-Post condition : Une recette est sauvegardé dans le système (et est ajouté à "Mes recettes lors de la recherche de recette et de la gestion du planning des repas")
+Post condition : Une recette est sauvegardé dans le système (et est ajoutée à "Mes recettes" pour la recherche de recette et de la gestion du planning des repas") et retour au menu
 
 Description Globale :
 L'utilisateur peut ajouter une recette
-Il aura a renseigner, le nom de la recette, la liste des ingrédiants
+Il aura a renseigner, le nom de la recette, le type de la recette (recette bio, seine, recette française / italienne / marocaine... etc), la liste des ingrédiants
 (avec quantité, l'appli possède une base de données avec tous les ingrédiants,
 l'utilisateur pourra donc choisir ses ingrédiants depuis cette liste (une recherche est bien entendu possible)
 Ceci permet d'avoir le même nom pour les ingrédiants et permettra donc de mieux gérer les ingrédiants auxquels sont allergiques les utilisateurs).
