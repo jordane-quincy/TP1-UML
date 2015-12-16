@@ -1,0 +1,15 @@
+Titre: Ajouter un utilisateur
+Type: Description Globale
+Acteurs : Admin
+Date de création : 9 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 2
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : L'administrateur (qui est aussi un utilisateur) c'est authentifié sur le système et a cliqué sur le bouton "Ajouter un utilisateur" de son menu
+Post condition : Un nouvel utilisateur est ajouté à l'application
+
+Description Globale :
+
+L'administrateur peut ajouter un utilisateur.
+Il aura à renseigner son prénom, mot de passe et surnom (permettant de différencier (surtout s'il y a 2 fois le même prénom))
+Il aura ensuite à renseigner si l'utilisateur est un enfant, un ado ou un adulte (permettant de grérer les différents droits sur l'application par la suite)
