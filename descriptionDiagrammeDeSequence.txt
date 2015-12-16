@@ -1,0 +1,11 @@
+
+Description Globale :
+
+Lors de la validation du mot de passe (après avoir selectionner son identifiant),
+le système tente d'authentifier l'utilisateur :
+En cas d'echec de l'authentification, l'utilisateur doit resaisir ces informations de connection.
+
+
+Une fois l'authentification réussie, l'utilisateur a certaine possibilité selon son type d'utilisateur (cf note dans le diagramme).
+
+	
