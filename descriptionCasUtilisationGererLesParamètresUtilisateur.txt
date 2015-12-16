@@ -1,0 +1,22 @@
+Titre: Gérer les paramètres utilisateur
+Type: Description Globale
+Acteurs : Admin
+Date de création : 16 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 1
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : L'administrateur (qui est aussi un utilisateur) c'est authentifié sur le système et a cliqué sur le bouton "Modifier les paramètres" de son menu
+Post condition : Les paramètres de l'application on était modifié
+
+Description Globale :
+
+L'admin peut gérer les paramètres pour chaque utilisateur distinctement.
+Il pourra ainsi, pour un utilisateur, gérer :
+    - La taille des caractères
+    - Le volume sonorre
+    - Modifier le "type" d'utilisateur (par exemple changer un utilisateur "enfant" en utilisateur "ado")
+    - Modifier le mot de passe, le surnom et le prénom
+    - Editer la liste des aliments auxquels l'utilisateur est allergique
+Ces paramètres s'appliqueront uniquement pour l'utilisateur que l'admin a sélectionné
+Pour les paramètres "taille des caractères" et "volume sonorre" un bouton "Appliquer à tous" sera disponible permettant d'appliquer la même configuration à tous les utilisateurs
+L'admin pourra aussi supprimer l'utilisateur

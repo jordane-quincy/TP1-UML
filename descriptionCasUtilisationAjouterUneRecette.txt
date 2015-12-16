@@ -1,0 +1,19 @@
+Titre: Ajouter une recette
+Type: Description Globale
+Acteurs : Adulte et Ado
+Date de création : 16 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 1
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : Un utilistateur "Adulte" et "Ado" s'est authentifier sur l'application et a cliqué sur le bouton "Ajouter une recette" de son menu
+Post condition : Une recette est sauvegardé dans le système (et est ajouté à "Mes recettes lors de la recherche de recette et de la gestion du planning des repas")
+
+Description Globale :
+L'utilisateur peut ajouter une recette
+Il aura a renseigner, le nom de la recette, la liste des ingrédiants
+(avec quantité, l'appli possède une base de données avec tous les ingrédiants,
+l'utilisateur pourra donc choisir ses ingrédiants depuis cette liste (une recherche est bien entendu possible)
+Ceci permet d'avoir le même nom pour les ingrédiants et permettra donc de mieux gérer les ingrédiants auxquels sont allergiques les utilisateurs).
+Il pourra créer différentes étapes pour sa recette, en ajoutant description, images et videos (pour les images et videos, il pourra les importer depuis son appareil)
+Il devra pour chaque étape préciser le temps de préparation (ou cuisson)
+Il devra donner une fouchette de prix pour la préparation de la recette (si cette fourchette de prix n'est pas renseigné, la recette sera sauvegardé avec comme prix : "non renseigné")
