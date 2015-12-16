@@ -1,0 +1,22 @@
+Titre: Gérer le planning des repas (visualiser le planning pour utilisateur "enfant" et "ado")
+Type: Description Globale
+Acteurs : Utilisateur adulte
+Date de création : 16 décembre 2015
+Date de Mise é jour : 16 décembre 2015
+Version 1
+Responsable : Jean-Baptiste DURIEZ
+Pré condition : Un utilisateur adulte, enfant ou ado s'est authentifié sur le système et a cliqué sur le bouton "Gérer le planning des repas" depuis son menu (pour les utilisateurs "enfant" et "ado" le bouton est "Voir le planning des repas")
+Post condition : Le planning des repas est mis à jour et retour au menu de l'utilateur
+
+Descritpion Globale :
+L'utilisateur Adulte a la possibilité de gérer les menus pour tous les jours à venir pour le midi et le soir. Il a également accès au plannning des jours précédants mais uniquement en consultation(pour donner des idées)
+L'écran sera sous forme de planning par semaine, et l'utilisateur pourra naviguer de semaine en semaine et pourra aussi directement changer de mois et d'année
+Pour chaque jour, 2 plats (recettes) peuvent être "attribués" au jour, un pour le midi et un pour le soir
+Sur le planning, les jours sont donc découpés en "deux" la première "case" correspond au midi et la deuxième au soir.
+Lorsque l'utilisateur clique sur une case il peut alors ajouter ou modifier le plat (recette) prévu pour ce jour.
+L'utilisateur a accès à la liste de souhaits de tous les utilisateurs et peut les sélectionner pour les mettres dans le planning.
+Il peut également accéder à "mes recettes" pour attribuer une de ses recettes. Et il pourra recherche une recette comme lors du cas d'utilisation "Rechercher une recette"
+Lors de l'ajout d'un plat sur le planning, un message est affiché (avant validation) précisant depuis combien de temps ce plat n'a pas été ajouté.
+Ceci permet à l'utilisateur de varier plus facilement ses menus sans forcément à avoir à se souvenir de ce qu'ils ont mangé la semaine dernière, le système le fait pour lui.
+
+Les utilisateurs "enfant" et "ado" peuvent uniquement visualiser le planning et non l'éditer
