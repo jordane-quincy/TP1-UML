@@ -6,6 +6,6 @@ le système tente d'authentifier l'utilisateur :
 En cas d'echec de l'authentification, l'utilisateur doit resaisir ces informations de connection.
 
 
-Une fois l'authentification réussie, l'utilisateur a certaine possibilité selon son type d'utilisateur :
-	- S'il est Admin : il peut faire l'ensemble des alternatives
-	- 
+Une fois l'authentification réussie, l'utilisateur a certaine possibilité selon son type d'utilisateur (cf note dans le diagramme).
+
+	

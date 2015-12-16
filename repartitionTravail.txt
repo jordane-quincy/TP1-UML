@@ -1,8 +1,8 @@
-Phase de reflexion/creéation/conception du système : Ensemble
+Phase de reflexion/création/conception du système : Ensemble
 
 Diagramme de classe : Jordane
 Diagramme de cas d'utilisation : Jean-Baptiste
 Diagramme d'états-transitions :
-Diagramme d'activité :
+Diagramme d'activité : Jordane
 Diagramme de séquence : Jordane
 Maquettes :
