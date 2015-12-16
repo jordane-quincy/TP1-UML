@@ -13,7 +13,7 @@ Description Globale :
 L'admin peut gérer les paramètres pour chaque utilisateur distinctement.
 Il pourra ainsi, pour un utilisateur, gérer :
     - La taille des caractères
-    - Le volume sonorre
+    - Le volume sonore
     - Modifier le "type" d'utilisateur (par exemple changer un utilisateur "enfant" en utilisateur "ado")
     - Modifier le mot de passe, le surnom et le prénom
     - Editer la liste des aliments auxquels l'utilisateur est allergique
