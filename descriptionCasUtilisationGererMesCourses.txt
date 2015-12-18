@@ -10,7 +10,7 @@ Post condition : Des achats sont effectués, ou une liste de course a été édi
 
 Description globale :
 Une fois sur l'écran, l'utilisateur va voir la liste de tous les ingrédiants nécessaires pour les recettes qui sont attribuées à un jour sur le planning,
-Il pourra alors sélectionner quels ingrédients ajouter à sa liste de course (sa liste de course peut déjà comporter des éléments si l'utilisateur les a ajouté depuis l'écran des ingrédients d'une recette lors de la réalisation de celle-ci)
+Il pourra alors sélectionner quels ingrédients ajouter à sa liste de course (sa liste de course peut déjà comporter des éléments si l'utilisateur les a ajoutés depuis l'écran des ingrédients d'une recette lors de la réalisation de celle-ci)
 Une fois sa sélection terminée, il pourra cliquer sur le bouton "voir ma liste" et sera rediriger vers l'écran comportant tous les ingrédiants qu'il a ajouter.
 Il pourra depuis cet écran ajouter des ingrédients supplémentaires s'il le souhaite ou en supprimer.
 Ensuite il pourra imprimer sa liste de course, ou acheter directement ses courses en ligne depuis son site favoris.
