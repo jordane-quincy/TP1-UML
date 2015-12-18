@@ -2,8 +2,8 @@ Titre: Gérer le planning des repas (visualiser le planning pour utilisateur "en
 Type: Description Globale
 Acteurs : Utilisateur adulte
 Date de création : 16 décembre 2015
-Date de Mise é jour : 16 décembre 2015
-Version 1
+Date de Mise é jour : 18 décembre 2015
+Version 2
 Responsable : Jean-Baptiste DURIEZ
 Pré condition : Un utilisateur adulte, enfant ou ado s'est authentifié sur le système et a cliqué sur le bouton "Gérer le planning des repas" depuis son menu (pour les utilisateurs "enfant" et "ado" le bouton est "Voir le planning des repas")
 Post condition : Le planning des repas est mis à jour et retour au menu de l'utilateur
@@ -18,5 +18,6 @@ L'utilisateur a accès à la liste de souhaits de tous les utilisateurs et peut 
 Il peut également accéder à "mes recettes" pour attribuer une de ses recettes. Et il pourra recherche une recette comme lors du cas d'utilisation "Rechercher une recette"
 Lors de l'ajout d'un plat sur le planning, un message est affiché (avant validation) précisant depuis combien de temps ce plat n'a pas été ajouté.
 Ceci permet à l'utilisateur de varier plus facilement ses menus sans forcément à avoir à se souvenir de ce qu'ils ont mangé la semaine dernière, le système le fait pour lui.
+L'utilisateur pourra aussi cliquer sur le bouton "Gérer mes courses" pour lui permettre d'acheter plus facilement ses courses (voir cas d'utilisation "Gérer mes courses")
 
-Les utilisateurs "enfant" et "ado" peuvent uniquement visualiser le planning et non l'éditer
+Les utilisateurs "enfant" et "ado" peuvent uniquement visualiser le planning et non l'éditer et ils n'ont pas accès à la gestion des courses
