@@ -9,7 +9,7 @@ Pré condition : L'utilisateur s'est authentifié sur le système et a cliqué s
 Post condition : Retour au menu de l'utilisateur
 
 Descritpion Globale :
-Pour la recherche d'une recette. L'utilisateur peut faire une recherche parmis sa liste "mes recettes" ou bien directement depuis la base de données de l'application (stocké sur un serveur web)
+Pour la recherche d'une recette. L'utilisateur peut faire une recherche parmis sa liste "mes recettes" ou sa liste de recettes favorites ou bien directement depuis la base de données de l'application (stocké sur un serveur web)
 L'écran affiche par défaut les recettes les plus souvents utilisés par l'utilisateur (si pas encore de recette effectuée, l'écran affiche par défaut les recettes les plus souvents utilisés par tous les utilisateurs de l'application (pas uniquement ceux de la "famille", récupération de ces données par le web))
 L'utilisateur pourra choisir de trier les recettes en fonction
       - du prix
@@ -28,3 +28,4 @@ L'utilisateur pourra alors
     - Commenter la recette en cliquant sur le bouton "Commenter la recette" L'utilisateur "enfant" n'a pas accès à cette fonctionnalité
     - Suivre la réalisation de la recette en cliquant sur "Réaliser la recette" (pour plus de détails, voir la description du cas d'utilisation "Réaliser la recette")
     - Modifier la recette en cliquant sur le bouton "Modifier la recette" (Une recette modifiée venant de la base de données viendra se mettre dans "mes recettes et nouveau nom sera demandé", une recette modifiée venant de "mes recettes" gardera le même nom) L'utilisateur "enfant" n'a pas accès à cette fonctionnalité
+    - Ajouter la recette à ses recettes favorites

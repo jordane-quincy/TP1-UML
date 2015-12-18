@@ -2,15 +2,25 @@ Titre: Réaliser la recette
 Type: Description Globale
 Acteurs : Utilisateur "adulte", "ado" et "enfant"
 Date de création : 16 décembre 2015
-Date de Mise é jour : 16 décembre 2015
-Version 1
+Date de Mise à jour : 18 décembre 2015
+Version 2
 Responsable : Jean-Baptiste DURIEZ
 Pré condition : L'utilisateur a sélectionnée une recette et a cliqué sur le bouton "Réaliser la recette"
 Post condition : Retour aà l'écran de recherche de recette
 
 Descritpion Globale :
 1ère étape : Les ingrédiants
-La liste des ingrédiants est affichée et l'utlisateur doit cliquer chaque ingrédient qu'il possède puis valider, si dans les ingrédients il y a des ingrédients allergènes pour un utilisateur c'est précisé et une proposition est faite pour remplacer l'ingrédiant par un autre.
+La liste des ingrédiants est affichée et l'utlisateur doit cliquer sur chaque ingrédient qu'il possède puis valider, si dans les ingrédients il y a des ingrédients allergènes pour un utilisateur c'est précisé et une proposition est faite pour remplacer l'ingrédiant par un autre.
 Pour les utilisateurs "enfants" et "ados" ne peuvent pas valider s'il reste des ingrédients allergènent les concernant.
 Si tous les ingrédients de la recette sont en la possession de l'utilisateur, le début de la réalisation de la recette commence
-Sinon pour les utlisateurs "enfant" et "ado", un message s'affiche en proposant de remplacer les ingrédiants non possédés oubien l'utilisateur peut quitter la réalisation de la recette
+Sinon
+    - pour les utlisateurs "enfant" et "ado", un message s'affiche en proposant de remplacer les ingrédiants non possédés oubien l'utilisateur peut quitter la réalisation de la recette
+    - pour les utilisateurs "adulte", comme pour les utilisateurs "enfant" et "ado" un message s'affiche proposant de remplacer les ingrédiants non possédés et ils peuvent aussi quitter la recette. Mais ils ont également
+    la possibilité d'acheter directement les ingrédiants manquants en ligne (en l'ajoutant à la liste de course) ou de voir dans quel magasin ils sont disponibles (et à quel prix, donc en pouvant trier pour voir qui est le moins cher)
+
+2ème étape : réalisation de la recette
+L'écran va afficher successivement les differentes étapes à réaliser. A chaque étape, il y a un descriptif de ce qu'il y a à faire, mais également la possibilité de voir une vidéo (s'il y en a une pour cette étape)
+Pour les étapes concernant les cuissons, il y a en plus la possibilité de lancer un décompte depuis l'application en fonction des différents temps de cuissons. Dès le décompte terminé, une alerte sonorre retentie, le chronomètre clignote et la tablette vibre afin de signaler la fin de la cuisson
+S'il y a besoin de plus de cuisson, les utilisateurs peuvent ajouter du temps au chronomètre ou même en enlever à leur guise.
+Une fois l'étape réalisée, l'utilisateur peut passer à l'étape suivante en cliquant sur "suivant", il a égalemnet la possibilité de revenir sur les étapes précédentes en cliquant sur "précédent".
+A la fin de la recette, l'utilisateur est redirigé sur l'écran d'information de la recette (voir cas d'utilisation Rechercher une recette) d'où il pourra commenter, noter ou encore partager la recette qu'il vient d'effectuer
