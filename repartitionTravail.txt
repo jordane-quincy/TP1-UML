@@ -1,8 +1,9 @@
-Phase de reflexion/création/conception du système : Ensemble
-
+Phase de reflexion/création/conception du système : Jordane et Jean-Baptiste
 Diagramme de classe : Jordane
 Diagramme de cas d'utilisation : Jean-Baptiste
 Diagramme d'états-transitions : Jean-Baptiste
 Diagramme d'activité : Jordane
 Diagramme de séquence : Jordane
-Maquettes :
+Maquettes : Jordane et Jean-Baptiste
+Description des maquettes : Jean-Baptiste
+Rédaction du compte rendu : Jean-Baptiste (les descriptions des diagrammes ont été faite par le collaborateur ayant fait le diagramme)
